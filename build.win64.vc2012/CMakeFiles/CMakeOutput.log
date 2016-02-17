@@ -1,0 +1,348 @@
+The system is: Windows - 10.0.10586 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine версии 14.0.24728.2
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 17.02.2016 18:36:56.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)", не существует в проекте и будет пропущен.
+Проект "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\3.5.0-rc2\CompilerIdC\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+  Создание каталога "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdC.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\3.5.0-rc2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdC.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Сборка проекта "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\3.5.0-rc2\CompilerIdC\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:02.57
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/3.5.0-rc2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine версии 14.0.24728.2
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 17.02.2016 18:36:59.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)", не существует в проекте и будет пропущен.
+Проект "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\3.5.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "Debug\".
+  Создание каталога "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Создание "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\3.5.0-rc2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Файл "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Сборка проекта "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\3.5.0-rc2\CompilerIdCXX\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:01.15
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/3.5.0-rc2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_69bc7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.24728.2
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 17.02.2016 18:37:01.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)", не существует в проекте и будет пропущен.
+Проект "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_69bc7.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_69bc7.dir\Debug\".
+  Создание каталога "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_69bc7.dir\Debug\cmTC_69bc7.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_69bc7.dir\Debug\cmTC_69bc7.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69bc7.dir\Debug\\" /Fd"cmTC_69bc7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\testCCompiler.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.00.23506 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69bc7.dir\Debug\\" /Fd"cmTC_69bc7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_69bc7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_69bc7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_69bc7.lib" /MACHINE:X64  /machine:x64 cmTC_69bc7.dir\Debug\testCCompiler.obj
+  cmTC_69bc7.vcxproj -> C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_69bc7.exe
+  cmTC_69bc7.vcxproj -> C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_69bc7.pdb (Full PDB)
+FinalizeBuildStatus:
+  Файл "cmTC_69bc7.dir\Debug\cmTC_69bc7.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_69bc7.dir\Debug\cmTC_69bc7.tlog\cmTC_69bc7.lastbuildstate".
+Сборка проекта "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_69bc7.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:01.25
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9c912.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.24728.2
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 17.02.2016 18:37:02.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)", не существует в проекте и будет пропущен.
+Проект "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_9c912.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_9c912.dir\Debug\".
+  Создание каталога "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_9c912.dir\Debug\cmTC_9c912.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_9c912.dir\Debug\cmTC_9c912.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c912.dir\Debug\\" /Fd"cmTC_9c912.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.00.23506 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c912.dir\Debug\\" /Fd"cmTC_9c912.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.5\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_9c912.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_9c912.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_9c912.lib" /MACHINE:X64  /machine:x64 cmTC_9c912.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_9c912.vcxproj -> C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_9c912.exe
+  cmTC_9c912.vcxproj -> C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_9c912.pdb (Full PDB)
+FinalizeBuildStatus:
+  Файл "cmTC_9c912.dir\Debug\cmTC_9c912.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_9c912.dir\Debug\cmTC_9c912.tlog\cmTC_9c912.lastbuildstate".
+Сборка проекта "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_9c912.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:01.00
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e7eed.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.24728.2
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 17.02.2016 18:37:03.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)", не существует в проекте и будет пропущен.
+Проект "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_e7eed.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_e7eed.dir\Debug\".
+  Создание каталога "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_e7eed.dir\Debug\cmTC_e7eed.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_e7eed.dir\Debug\cmTC_e7eed.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e7eed.dir\Debug\\" /Fd"cmTC_e7eed.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.00.23506 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e7eed.dir\Debug\\" /Fd"cmTC_e7eed.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_e7eed.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_e7eed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_e7eed.lib" /MACHINE:X64  /machine:x64 cmTC_e7eed.dir\Debug\testCXXCompiler.obj
+  cmTC_e7eed.vcxproj -> C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_e7eed.exe
+  cmTC_e7eed.vcxproj -> C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_e7eed.pdb (Full PDB)
+FinalizeBuildStatus:
+  Файл "cmTC_e7eed.dir\Debug\cmTC_e7eed.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_e7eed.dir\Debug\cmTC_e7eed.tlog\cmTC_e7eed.lastbuildstate".
+Сборка проекта "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_e7eed.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:01.09
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b4c94.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.24728.2
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 17.02.2016 18:37:05.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)", не существует в проекте и будет пропущен.
+Проект "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_b4c94.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_b4c94.dir\Debug\".
+  Создание каталога "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_b4c94.dir\Debug\cmTC_b4c94.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_b4c94.dir\Debug\cmTC_b4c94.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b4c94.dir\Debug\\" /Fd"cmTC_b4c94.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.00.23506 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b4c94.dir\Debug\\" /Fd"cmTC_b4c94.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\CMake\share\cmake-3.5\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_b4c94.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_b4c94.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_b4c94.lib" /MACHINE:X64  /machine:x64 cmTC_b4c94.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_b4c94.vcxproj -> C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_b4c94.exe
+  cmTC_b4c94.vcxproj -> C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_b4c94.pdb (Full PDB)
+FinalizeBuildStatus:
+  Файл "cmTC_b4c94.dir\Debug\cmTC_b4c94.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_b4c94.dir\Debug\cmTC_b4c94.tlog\cmTC_b4c94.lastbuildstate".
+Сборка проекта "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_b4c94.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:01.02
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cd5d9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine версии 14.0.24728.2
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата 17.02.2016 18:37:06.
+Целевой объект "BeforeGenerateProjectPriFile", указанный в атрибуте BeforeTargets для "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)", не существует в проекте и будет пропущен.
+Проект "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_cd5d9.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_cd5d9.dir\Debug\".
+  Создание каталога "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_cd5d9.dir\Debug\cmTC_cd5d9.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_cd5d9.dir\Debug\cmTC_cd5d9.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd5d9.dir\Debug\\" /Fd"cmTC_cd5d9.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\feature_tests.cxx
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.00.23506 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cd5d9.dir\Debug\\" /Fd"cmTC_cd5d9.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_cd5d9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_cd5d9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_cd5d9.lib" /MACHINE:X64  /machine:x64 cmTC_cd5d9.dir\Debug\feature_tests.obj
+  cmTC_cd5d9.vcxproj -> C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\Debug\cmTC_cd5d9.exe
+  cmTC_cd5d9.vcxproj -> C:/Sem/migun_m_k/build.win64.vc2012/CMakeFiles/CMakeTmp/Debug/cmTC_cd5d9.pdb (Full PDB)
+FinalizeBuildStatus:
+  Файл "cmTC_cd5d9.dir\Debug\cmTC_cd5d9.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_cd5d9.dir\Debug\cmTC_cd5d9.tlog\cmTC_cd5d9.lastbuildstate".
+Сборка проекта "C:\Sem\migun_m_k\build.win64.vc2012\CMakeFiles\CMakeTmp\cmTC_cd5d9.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Затраченное время: 00:00:01.01
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
