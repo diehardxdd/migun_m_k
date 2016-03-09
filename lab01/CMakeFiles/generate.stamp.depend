@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Sem/migun_m_k/prj/lab01/CMakeLists.txt
+C:/Sem/opencv/build/OpenCVConfig-version.cmake
+C:/Sem/opencv/build/OpenCVConfig.cmake
+C:/Sem/opencv/build/x64/vc14/lib/OpenCVConfig.cmake
+C:/Sem/opencv/build/x64/vc14/lib/OpenCVModules.cmake
+C:/Sem/opencv/build/x64/vc14/lib/OpenCVModules-debug.cmake
+C:/Sem/opencv/build/x64/vc14/lib/OpenCVModules-release.cmake
