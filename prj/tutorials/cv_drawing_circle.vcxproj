@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A4E83792-C83B-36F4-8F58-670A24E443BD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cv_drawing_circle</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Sem\migun_m_k\bin.debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cv_drawing_circle.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cv_drawing_circle</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Sem\migun_m_k\bin.release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cv_drawing_circle.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cv_drawing_circle</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Sem\migun_m_k\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cv_drawing_circle.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cv_drawing_circle</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Sem\migun_m_k\bin.inforelease\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cv_drawing_circle.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cv_drawing_circle</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Sem/migun_m_k/build.win64.vc2012/prj/tutorials/Debug/cv_drawing_circle.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Sem/migun_m_k/bin.debug/cv_drawing_circle.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Sem/migun_m_k/build.win64.vc2012/prj/tutorials/Release/cv_drawing_circle.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Sem/migun_m_k/bin.release/cv_drawing_circle.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Sem/migun_m_k/build.win64.vc2012/prj/tutorials/MinSizeRel/cv_drawing_circle.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Sem/migun_m_k/bin/MinSizeRel/cv_drawing_circle.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Sem\opencv\build\include;C:\Sem\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib;C:\Sem\opencv\build\x64\vc14\lib\opencv_world310d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Sem/migun_m_k/build.win64.vc2012/prj/tutorials/RelWithDebInfo/cv_drawing_circle.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Sem/migun_m_k/bin.inforelease/cv_drawing_circle.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Sem/migun_m_k/prj/tutorials/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Sem/migun_m_k -BC:/Sem/migun_m_k/build.win64.vc2012 --check-stamp-file C:\Sem\migun_m_k\build.win64.vc2012\prj\tutorials\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Sem/migun_m_k/prj/tutorials/CMakeLists.txt;C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt;C:\Sem\opencv\build\OpenCVConfig-version.cmake;C:\Sem\opencv\build\OpenCVConfig.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Sem\migun_m_k\build.win64.vc2012\prj\tutorials\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Sem/migun_m_k/prj/tutorials/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Sem/migun_m_k -BC:/Sem/migun_m_k/build.win64.vc2012 --check-stamp-file C:\Sem\migun_m_k\build.win64.vc2012\prj\tutorials\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Sem/migun_m_k/prj/tutorials/CMakeLists.txt;C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt;C:\Sem\opencv\build\OpenCVConfig-version.cmake;C:\Sem\opencv\build\OpenCVConfig.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Sem\migun_m_k\build.win64.vc2012\prj\tutorials\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Sem/migun_m_k/prj/tutorials/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Sem/migun_m_k -BC:/Sem/migun_m_k/build.win64.vc2012 --check-stamp-file C:\Sem\migun_m_k\build.win64.vc2012\prj\tutorials\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Sem/migun_m_k/prj/tutorials/CMakeLists.txt;C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt;C:\Sem\opencv\build\OpenCVConfig-version.cmake;C:\Sem\opencv\build\OpenCVConfig.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Sem\migun_m_k\build.win64.vc2012\prj\tutorials\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Sem/migun_m_k/prj/tutorials/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Sem/migun_m_k -BC:/Sem/migun_m_k/build.win64.vc2012 --check-stamp-file C:\Sem\migun_m_k\build.win64.vc2012\prj\tutorials\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Sem/migun_m_k/prj/tutorials/CMakeLists.txt;C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt;C:\Sem\opencv\build\OpenCVConfig-version.cmake;C:\Sem\opencv\build\OpenCVConfig.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\Sem\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\Sem\migun_m_k\prj\tutorials\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Sem\migun_m_k\build.win64.vc2012\prj\tutorials\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Sem\migun_m_k\prj\tutorials\cv_drawing_circle.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Sem/migun_m_k/build.win64.vc2012/ZERO_CHECK.vcxproj">
+      <Project>083ACBAB-7F18-3097-BAFF-2C8E328AFF07</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
